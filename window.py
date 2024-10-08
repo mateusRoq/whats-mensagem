@@ -69,6 +69,8 @@ def btn_clicked():
     navegador.find_element(By.XPATH, "//*[@id='main']/footer/div[1]/div/span/div/div[2]/div[2]/button").send_keys(Keys.ENTER)
     time.sleep(5)
 
+print("Mensagem Enviada!")
+
 img0 = PhotoImage(file = f"img0.png")
 b0 = Button(
     image = img0,
